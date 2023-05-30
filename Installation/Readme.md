@@ -117,7 +117,7 @@ sudo tar xvzf hadoop-2.9.0.tar.gz
 
 Move the extracted Hadoop directory to the /usr/local/hadoop path:
 ```bash
-sudo mv hadoop-2.9.0 /usr/local/hadoop
+mv hadoop-2.9.0 hadoop && sudo mv hadoop /usr/local/
 ```
 
 By following these steps, you will download the Hadoop distribution package, extract it, and move it to the appropriate installation directory.
